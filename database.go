@@ -4,7 +4,7 @@ import (
 	"gorm.io/gorm"
 )
 
-type Item struct {
+type CsgoItem struct {
 	gorm.Model
 	Volume90Day  int    `gorm:"uniqueIndex:volume_90_day"`
 	Volume30Day  int    `gorm:"uniqueIndex:volume_30_day"`
