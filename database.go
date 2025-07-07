@@ -13,5 +13,6 @@ type CsgoItem struct {
 	Average90Day float64 `gorm:"uniqueIndex:average_90_day"`
 	Average30Day float64 `gorm:"uniqueIndex:average_30_day"`
 	MinPrice     float64 `gorm:"uniqueIndex:min_price"`
+	MarketPlace  string
 	Note         string
 }
