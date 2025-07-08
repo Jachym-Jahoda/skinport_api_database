@@ -6,13 +6,13 @@ import (
 
 type CsgoItem struct {
 	gorm.Model
-	Volume90Day  int    `gorm:"uniqueIndex:volume_90_day"`
-	Volume30Day  int    `gorm:"uniqueIndex:volume_30_day"`
-	Name         string `gorm:"uniqueIndex:name"`
+	Volume90Day  int
+	Volume30Day  int
+	Name         string
 	MarketPage   string
-	Average90Day float64 `gorm:"uniqueIndex:average_90_day"`
-	Average30Day float64 `gorm:"uniqueIndex:average_30_day"`
-	MinPrice     float64 `gorm:"uniqueIndex:min_price"`
+	Average90Day float64
+	Average30Day float64
+	MinPrice     float64
 	MarketPlace  string
 	Note         string
 }
