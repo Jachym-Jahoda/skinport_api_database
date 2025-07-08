@@ -1,4 +1,4 @@
-module github.com/Jachym-Jahoda/csgo_trading_bot_database
+module github.com/Jachym-Jahoda/skinport_api_databse
 
 go 1.23
 
