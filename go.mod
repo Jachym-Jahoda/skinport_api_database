@@ -1,4 +1,4 @@
-module github.com/Jachym-Jahoda/skinport_api_databse
+module github.com/Jachym-Jahoda/skinport_api_database
 
 go 1.23
 
